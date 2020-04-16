@@ -11,7 +11,7 @@ metadata:
 spec:
   releaseName: podinfo
   chart:
-    git: git@github.com/marcusschmidt/gitops-helm-workshop
+    git: ssh://git@github.com/marcusschmidt/gitops-helm-workshop
     ref: master
     path: cluster/charts/podinfo
   values:
